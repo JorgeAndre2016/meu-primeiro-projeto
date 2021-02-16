@@ -1,2 +1,2 @@
-# meu-primeiro-projetos
+# meu-primeiro-projeto
 Projeto Spring Boot (Estudos Udemy)
