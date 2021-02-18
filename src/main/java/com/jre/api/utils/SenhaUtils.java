@@ -1,6 +1,6 @@
 package com.jre.api.utils;
 
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+//import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class SenhaUtils {
 
@@ -10,14 +10,14 @@ public class SenhaUtils {
 	 * @param senha
 	 * @return
 	 */
-	public static String gerarBCrypt(String senha) {
-		if (senha == null) {
-			return senha;
-		}
-		
-		BCryptPasswordEncoder bCryptEncoder = new BCryptPasswordEncoder();
-		return bCryptEncoder.encode(senha);
-	}
+//	public static String gerarBCrypt(String senha) {
+//		if (senha == null) {
+//			return senha;
+//		}
+//		
+//		BCryptPasswordEncoder bCryptEncoder = new BCryptPasswordEncoder();
+//		return bCryptEncoder.encode(senha);
+//	}
 	
 	/**
 	 * Verifica se a senha é válida
@@ -26,8 +26,8 @@ public class SenhaUtils {
 	 * @param senhaEncoded
 	 * @return boolean
 	 */
-	public static boolean senhaValida(String senha, String senhaEncoded) {
-		BCryptPasswordEncoder bCryptEncoder = new BCryptPasswordEncoder();
-		return bCryptEncoder.matches(senha, senhaEncoded);
-	}
+//	public static boolean senhaValida(String senha, String senhaEncoded) {
+//		BCryptPasswordEncoder bCryptEncoder = new BCryptPasswordEncoder();
+//		return bCryptEncoder.matches(senha, senhaEncoded);
+//	}
 }

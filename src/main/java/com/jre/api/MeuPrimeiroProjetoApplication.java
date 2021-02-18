@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Bean;
 
 import com.jre.api.entities.Empresa;
 import com.jre.api.repositories.EmpresaRepository;
+import com.jre.api.services.EmpresaService;
 import com.jre.api.utils.SenhaUtils;
 
 @SpringBootApplication
@@ -18,6 +19,9 @@ public class MeuPrimeiroProjetoApplication {
 
 	@Autowired
 	private EmpresaRepository empresaRepository;
+	
+	@Autowired
+	private EmpresaService empresaService;
 	
 	@Value("${paginacao.qtd_por_pagina}")
 	public int qtdPortPagina;
@@ -34,13 +38,13 @@ public class MeuPrimeiroProjetoApplication {
 			System.out.println("### Quantidade de elementos por página = " + this.qtdPortPagina);
 			
 			/* testando configurações do BCrypt */
-			String senhaEncoded = SenhaUtils.gerarBCrypt("123456");
-			System.out.println("Senha encoded: " + senhaEncoded);
+//			String senhaEncoded = SenhaUtils.gerarBCrypt("123456");
+//			System.out.println("Senha encoded: " + senhaEncoded);
 			
-			senhaEncoded = SenhaUtils.gerarBCrypt("123456");
-			System.out.println("Senha encoded novamente: " + senhaEncoded);
+//			senhaEncoded = SenhaUtils.gerarBCrypt("123456");
+//			System.out.println("Senha encoded novamente: " + senhaEncoded);
 			
-			System.out.println("Senha válida: " + SenhaUtils.senhaValida("123456", senhaEncoded));
+//			System.out.println("Senha válida: " + SenhaUtils.senhaValida("123456", senhaEncoded));
 			
 			/* testando configurações do repository */
 			Empresa empresa = new Empresa();
@@ -65,6 +69,9 @@ public class MeuPrimeiroProjetoApplication {
 //			this.empresaRepository.delete(1L);
 //			empresas = this.empresaRepository.findAll();
 //			System.out.println("Empresas: " + empresas.size());
+			
+			/* testando um service */
+			this.empresaService.testarServico();
 		};
 	}
 
