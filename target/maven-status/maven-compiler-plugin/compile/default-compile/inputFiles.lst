@@ -1,1 +1,13 @@
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\dtos\EmpresaDto.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\swagger\SwaggerConfig.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\services\EmpresaService.java
 C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\MeuPrimeiroProjetoApplication.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\repositories\EmpresaRepository.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\responses\Response.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\utils\SenhaUtils.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\enums\TipoEnum.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\controllers\EmpresaController.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\entities\Lancamento.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\entities\Funcionario.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\enums\PerfilEnums.java
+C:\Users\jorge\Documents\workspace-sts-3.9.15.RELEASE\MeuPrimeiroProjeto\src\main\java\com\jre\api\entities\Empresa.java
