@@ -1,6 +1,5 @@
 package com.jre.api.controllers;
 
-import org.apache.tomcat.jni.Error;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -34,7 +33,7 @@ public class EmpresaController {
 		
 		empresaDto.setId(1L);
 		response.setData(empresaDto);
-		
+		System.out.println("OI ");
 		return ResponseEntity.ok(response);
 	}
 }
